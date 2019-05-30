@@ -28,8 +28,6 @@ T-sne visualization:<br/>
 > gscatter(mappedX(:,1),mappedX(:,2),X);
 
 ### Calculation of clustering evaluation indices
-> addpath(genpath('hidden')); 
-
 Calculate rand index:<br/>
 > ri = rand_index(p, p1);
 
